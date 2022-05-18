@@ -1,3 +1,19 @@
+:root {
+  font-size: 16px;
+  --white: #FFFFFF;
+  --purple10: #8444df;
+  --purple20: #773dc8;
+  --black: #050505;
+  --sepia: #774e24;
+  --red: #a4243B;
+  --gray: #333333;
+  --body1-regular: 400 0.875rem/1.25rem Poppins;
+  --nav1-logo: 600 2.7rem/1.25rem Poppins;
+}
+
 body {
   margin: 0;
+  background: var(--white);
+  color: var(--gray);
+  font: var(--body1-regular);
 }
