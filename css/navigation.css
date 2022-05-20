@@ -1,5 +1,6 @@
 .navigation {
   block-size: 100vh;
+  inline-size: 5.5rem;
   background-color: var(--purple10);
   display: flex;
   flex-direction: column;
@@ -8,8 +9,12 @@
   color: var(--white);
 }
 
-.navigation i {
-  font-size: 1.5rem;
+.navigation:hover {
+  inline-size: 10rem;
+}
+
+.navigation:hover .navigation-core-item p {
+  display: block;
 }
 
 .navigation-logo {
@@ -22,10 +27,25 @@
   align-items: center;
 }
 
+.navigation-core {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 .navigation-core-item {
+
+}
+
+.navigation-core-item a {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: .5rem;
+}
+
+.navigation-core-item p {
+  display: none;
 }
 
 .navigation-footer{

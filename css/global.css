@@ -17,3 +17,17 @@ body {
   color: var(--gray);
   font: var(--body1-regular);
 }
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
