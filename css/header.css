@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 100vh;
+  inline-size: 100%;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image-container {
+  text-align: center;
+}
+
+.hero-image-container img {
+  border-radius: 50%;
+  box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
+}
+
+.hero-description {
+  flex: 1;
+}

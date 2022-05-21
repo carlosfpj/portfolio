@@ -4,6 +4,7 @@
   left: 0;
   block-size: 100vh;
   inline-size: 5.5rem;
+  min-inline-size: 5.5rem;
   background-color: var(--purple10);
   display: flex;
   flex-direction: column;

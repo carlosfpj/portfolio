@@ -16,6 +16,7 @@ body {
   background: var(--white);
   color: var(--gray);
   font: var(--body1-regular);
+  scroll-behavior: smooth;
 }
 
 a {
