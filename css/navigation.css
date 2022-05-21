@@ -1,4 +1,7 @@
-.navigation {
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
   block-size: 100vh;
   inline-size: 5.5rem;
   background-color: var(--purple10);
@@ -6,18 +9,21 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  /* font: var(--nav1-core); */
   color: var(--white);
+  transition: inline-size 1s;
+  overflow-x: hidden;
 }
 
-.navigation:hover {
+.nav:hover {
   inline-size: 10rem;
 }
 
-.navigation:hover .navigation-core-item p {
+.nav:hover .nav-item p {
   display: block;
 }
 
-.navigation-logo {
+.nav-logo {
   display: flex;
   font: var(--nav1-logo);
   background: var(--purple20);
@@ -27,29 +33,43 @@
   align-items: center;
 }
 
-.navigation-core {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
+.nav-core {
+  inline-size: 100%;
+  padding-inline-start: 2.5rem;
 }
 
-.navigation-core-item {
-
-}
-
-.navigation-core-item a {
-  display: flex;
+.nav-core li {
   align-items: center;
-  justify-content: center;
-  gap: .5rem;
 }
 
-.navigation-core-item p {
+.nav-core-list li {
+  margin-block: 0.5rem;
+}
+
+.nav-item {
+  inline-size: 6rem;
+  padding: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 0.25rem;
+}
+
+.nav-item:hover {
+  background-color: #9D69E5;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item p {
+  inline-size: 100%;
+  position: absolute;
+  left: 3rem;
   display: none;
 }
 
-.navigation-footer{
+.nav-footer{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: .5rem;
 }
