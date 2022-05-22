@@ -11,17 +11,18 @@
   --nav1-logo: 600 2.7rem/1.25rem Poppins;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+  vertical-align: baseline;
+}
+
 body {
   margin: 0;
   background: var(--white);
   color: var(--gray);
   font: var(--body1-regular);
   scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-  color: currentColor;
 }
 
 i {

@@ -6,7 +6,7 @@
   inline-size: 100%;
 }
 
-.hero-image {
+.header-hero {
   flex: 1;
 }
 
@@ -21,4 +21,36 @@
 
 .hero-description {
   flex: 1;
+}
+
+.hero-description span {
+  color: var(--purple20);
+  font-weight: 600;
+}
+
+.hero-socials {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.socials-resume {
+  /* display: inline; */
+  /* inline-size: 8.75rem;
+  block-size: 3rem; */
+  border-radius: 2.5rem;
+  padding: 1rem 3rem;
+  border: none;
+  background-color: var(--purple10);
+  color: var(--white);
+  font: var(--body1-regular);
+}
+
+.hero-socials-list {
+  display: flex;
+  margin-inline-start: 2rem;
+}
+
+.hero-socials-list li {
+  margin-inline: 10px;
 }
