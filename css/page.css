@@ -22,6 +22,7 @@ p {
 
 section {
   padding-block: 5rem;
+  display: block;
 }
 
 ul {

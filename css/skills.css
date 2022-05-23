@@ -1,0 +1,39 @@
+.skills {
+
+}
+
+.skills-skills {
+
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  row-gap: 2rem;
+  column-gap: 2rem;
+  align-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.skills-grid li {
+  background-color: var(--white);
+  border-radius: 1rem;
+  inline-size: 5rem;
+  padding: 0.625rem;
+  border: 1px solid var(--white20);
+  transition: all 0.3s ease-in;
+}
+
+.skills-grid li:hover {
+  box-shadow: 0px 10px 10px rgba(134, 151, 168, 0.1);;
+}
+
+.skills-item-container {
+  text-align: center;
+}
+
+.skills-item-container img {
+  inline-size: 2.2rem;
+  block-size: 2.2rem;
+}

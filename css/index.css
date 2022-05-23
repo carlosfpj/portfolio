@@ -4,11 +4,13 @@
 @import './header.css';
 @import './portfolio.css';
 @import './about.css';
+@import './skills.css';
 
 :root {
   font-size: 16px;
   --white: #FFFFFF;
   --white10: #f7f7f7;
+  --white20: #eee;
   --purple10: #8444df;
   --purple20: #773dc8;
   --black: #050505;
