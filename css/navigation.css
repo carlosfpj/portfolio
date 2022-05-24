@@ -12,7 +12,7 @@
   align-items: center;
   /* font: var(--nav1-core); */
   color: var(--white);
-  transition: inline-size 1s;
+  transition: inline-size 0.5s;
   overflow-x: hidden;
 }
 
