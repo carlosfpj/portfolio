@@ -1,0 +1,62 @@
+.studies {
+
+}
+
+.studies-studies {
+  margin-block-start: 2rem;
+}
+
+.studies-course {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.course-image {
+  flex: 1;
+}
+
+.course-image img {
+  inline-size: 100%;
+}
+
+.course-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.course-description-title {
+  flex: 0.5;
+}
+
+.course-description-topics {
+  flex: 2;
+  text-align: center;
+}
+
+.course-description-topics ul {
+  display: inline-block;
+  padding-inline-start: 0px;
+	text-align: left;
+}
+
+.course-description-topics p:first-child {
+  text-align: center;
+  margin-block-end: 1rem;
+}
+
+.course-description-topics li {
+  list-style: disc;
+  margin-bottom: 0.5rem;
+}
+
+.course-description-media {
+  flex: 0;
+}
+
+.course-description-media a {
+  text-decoration: underline;
+}
+

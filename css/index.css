@@ -5,6 +5,7 @@
 @import './portfolio.css';
 @import './about.css';
 @import './skills.css';
+@import './studies.css';
 
 :root {
   font-size: 16px;
