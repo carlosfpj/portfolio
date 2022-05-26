@@ -6,6 +6,7 @@
 @import './about.css';
 @import './skills.css';
 @import './studies.css';
+@import './projects.css';
 
 :root {
   font-size: 16px;

@@ -13,7 +13,9 @@
 }
 
 .course-image {
+  flex: 0 0 31.25rem;
   flex: 1;
+  padding: 1rem
 }
 
 .course-image img {
