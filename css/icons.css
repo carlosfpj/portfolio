@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?lqli88');
-  src:  url('../fonts/icomoon.eot?lqli88#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?lqli88') format('truetype'),
-    url('../fonts/icomoon.woff?lqli88') format('woff'),
-    url('../fonts/icomoon.svg?lqli88#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?l5j4uo');
+  src:  url('../fonts/icomoon.eot?l5j4uo#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?l5j4uo') format('truetype'),
+    url('../fonts/icomoon.woff?l5j4uo') format('woff'),
+    url('../fonts/icomoon.svg?l5j4uo#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -59,7 +59,6 @@
 }
 .icon-heart:before {
   content: "\e921";
-  color: #fff;
 }
 .icon-home:before {
   content: "\e922";
@@ -78,7 +77,7 @@
 .icon-Iconcheck-square:before {
   content: "\e926";
 }
-.icon-chevron-down:before {
+.icon-Iconchevron-down:before {
   content: "\e927";
 }
 .icon-Iconchevron-left:before {
@@ -101,14 +100,14 @@
 }
 .icon-Iconhelp-circle:before {
   content: "\e92e";
-}
+}s
 .icon-Iconplus:before {
   content: "\e92f";
 }
 .icon-Iconsearch:before {
   content: "\e930";
 }
-.icon-Iconsettings:before {
+.icon-settings:before {
   content: "\e931";
 }
 .icon-text:before {
@@ -203,7 +202,7 @@
 .icon-heart1:before {
   content: "\e908";
 }
-.icon-home:before {
+.icon-home1:before {
   content: "\e909";
 }
 .icon-home-active1:before {
@@ -265,6 +264,9 @@
 }
 .icon-code:before {
   content: "\ea80";
+}
+.icon-mail:before {
+  content: "\ea86";
 }
 .icon-github:before {
   content: "\eab0";

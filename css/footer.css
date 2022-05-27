@@ -1,0 +1,9 @@
+.footer {
+  background: var(--white);
+  text-align: center;
+  justify-content: center;
+}
+
+footer i {
+  color: var(--purple10);
+}

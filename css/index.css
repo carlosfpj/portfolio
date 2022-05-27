@@ -7,6 +7,8 @@
 @import './skills.css';
 @import './studies.css';
 @import './projects.css';
+@import './contact.css';
+@import './footer.css';
 
 :root {
   font-size: 16px;

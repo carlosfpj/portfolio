@@ -1,0 +1,14 @@
+.contact {
+
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-box i {
+  color: var(--purple10);
+}
