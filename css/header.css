@@ -54,3 +54,23 @@
 .hero-socials-list li {
   margin-inline: 10px;
 }
+
+@media (max-width: 1100px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header-hero {
+    flex: 0;
+  }
+
+  .hero-description {
+    flex: 0;
+    text-align: center;
+    margin-block-start: 1rem;
+  }
+
+  .hero-socials {
+    justify-content: center;
+  }
+}
