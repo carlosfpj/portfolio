@@ -55,7 +55,7 @@
   margin-inline: 10px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .header {
     flex-direction: column;
   }
