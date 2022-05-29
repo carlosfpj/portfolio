@@ -1,3 +1,41 @@
+.menuButton {
+  cursor: pointer;
+  position: fixed;
+  top: 35px;
+  right: 20px;
+  inline-size: 35px;
+  block-size: 30px;
+  padding: 10px;
+  z-index: 30;
+  display: none;
+}
+
+.menuButton .linesContainer {
+  position: relative;
+}
+
+.menuButton .linesContainer span {
+  content: '';
+  display: block;
+  inline-size: 25px;
+  block-size: 2px;
+  background: var(--black);
+  position: absolute;
+}
+
+.menuButton .linesContainer span:nth-child(1) {
+  top: 0px;
+  left: 0px;
+}
+
+.menuButton .linesContainer span:nth-child(2) {
+  top: 10px;
+}
+
+.menuButton .linesContainer span:nth-child(3) {
+  top: 20px;
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -73,4 +111,8 @@
   display: flex;
   /* align-items: center; */
   gap: .5rem;
+}
+
+.hidenav {
+  left: -300px;
 }
