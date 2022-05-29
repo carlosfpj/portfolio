@@ -87,3 +87,9 @@
   }
 }
 
+@media (max-width: 940px) {
+  .studies-course {
+    display: block;
+  }
+}
+
