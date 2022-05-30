@@ -113,6 +113,8 @@
   gap: .5rem;
 }
 
-.hidenav {
-  left: -300px;
+@media (max-width: 530px) {
+  .nav {
+    display: none;
+  }
 }

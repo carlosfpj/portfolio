@@ -3,3 +3,13 @@
   margin: auto;
   padding-inline: 10rem;
 }
+
+@media (max-width: 530px) {
+  .portfolio {
+    padding-inline: 0;
+  }
+
+  .menuButton {
+    display: block;
+  }
+}
