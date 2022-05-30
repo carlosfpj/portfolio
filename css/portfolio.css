@@ -6,10 +6,6 @@
 
 @media (max-width: 530px) {
   .portfolio {
-    padding-inline: 0;
-  }
-
-  .menuButton {
-    display: block;
+    padding-inline: 0.5rem;
   }
 }
