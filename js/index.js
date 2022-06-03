@@ -4,5 +4,5 @@ $menuButton.onpointerdown = downHandler;
 
 function downHandler (event) {
   console.log("evento de click");
-  $navbar.classList.toggle('active');
+  $navbar.classList.toggle('inactive');
 }

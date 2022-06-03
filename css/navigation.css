@@ -118,7 +118,7 @@
 }
 
 @media (max-width: 530px) {
-  .active {
+  .inactive {
     display: none;
   }
 
