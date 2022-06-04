@@ -4,6 +4,11 @@ a {
   vertical-align: baseline;
 }
 
+a:focus,
+a:hover {
+  outline: none;
+}
+
 hr {
   margin-block: 3rem;
 }
