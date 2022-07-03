@@ -1,0 +1,100 @@
+.experience {
+
+}
+
+.experience-description {
+
+}
+
+.experience-experiences {
+  margin-block-start: 2rem;
+}
+
+.experiences-project {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.project-image {
+  flex: 1;
+  padding: 1rem
+}
+
+.project-image img {
+  inline-size: 100%;
+}
+
+.project-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-description-title {
+  flex: 0.5;
+}
+
+.project-description-title h4 {
+  text-align: center;
+}
+
+.project-description-topics {
+  flex: 2;
+  text-align: center;
+}
+
+.project-description-topics ul {
+  display: inline-block;
+  padding-inline-start: 0px;
+  text-align: left;
+}
+
+.project-description-topics p:first-child {
+  text-align: center;
+  margin-block-end: 1rem;
+}
+
+.project-description-topics li {
+  list-style: disc;
+  margin-bottom: 0.5rem;
+}
+
+.project-description-media {
+  flex: 0;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .project-image {
+    flex: 0 0 25rem;
+    padding: 1rem
+  }
+}
+
+@media (max-width: 1090px) {
+  .project-image {
+    flex: 0 0 20rem;
+    padding: 1rem
+  }
+
+  .project-description-title h3 {
+    margin-block-end: 0;
+  }
+
+  .project-description-title h4 {
+    margin-block-end: 0;
+  }
+
+  .project-description-topics p:first-child {
+    margin-block-end: 0.5rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .experiences-project {
+    display: block;
+  }
+}
+
