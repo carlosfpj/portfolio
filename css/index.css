@@ -10,6 +10,7 @@
 @import './contact.css';
 @import './footer.css';
 @import './experience.css';
+@import './acordeon.css';
 
 :root {
   font-size: 16px;
