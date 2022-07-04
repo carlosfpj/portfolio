@@ -12,3 +12,7 @@
 .contact-box i {
   color: var(--purple10);
 }
+
+.contact .section-container {
+  text-align: center;
+}
