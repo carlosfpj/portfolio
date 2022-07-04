@@ -1,30 +1,28 @@
 .acordeon {
-  background-color: lightcoral;
   padding: 2rem;
   width: 90%;
   max-width: 120em;
 }
 
 .acordeon .bloque {
-  background-color: red;
   margin: 0 0 1em;
   padding: 1em;
 }
 
 .acordeon .h2 {
-  background-color: lime;
   margin: 0 0 1em;
   padding: 1em;
+  display: inline;
 }
 
 .acordeon .contenido {
-  background-color: pink;
   height: 0;
   padding: 0em;
   overflow: hidden;
-  transition: all .5s ease;
+  transition: all 1.5s ease;
 }
 
 .acordeon .bloque.activo .contenido {
-  height: 4em;
+  height: auto;
+  transition: all 1.5s ease;
 }
