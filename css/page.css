@@ -13,6 +13,10 @@ hr {
   margin-block: 3rem;
 }
 
+h4 {
+  display: inline-block;
+}
+
 i {
   font-size: 1.5rem;
   inline-size: 24px;
@@ -37,6 +41,12 @@ section {
 ul {
   padding: 0;
   margin: 0;
+}
+
+.justify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .page {
