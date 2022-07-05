@@ -1,7 +1,6 @@
 var $menuButton = document.querySelector('.menuButton');
 var $navbar = document.querySelector('.nav')
 $menuButton.onpointerdown = downHandler;
-let bloque;
 
 
 function downHandler (event) {
@@ -10,13 +9,40 @@ function downHandler (event) {
 }
 
 
-const h2 = document.querySelectorAll('.h2');
+const chevron = document.querySelectorAll('.icon-chevron-down');
 
-h2.forEach((cadah2, i) => {
-  h2[i].addEventListener('click', ()=> {
-    console.log('click');
-    bloque = cadah2.parentElement;
-    console.log(bloque);
-    bloque.classList.toggle('activo');
+chevron.forEach((cadaChevron, i) => {
+  cadaChevron.addEventListener('click' , ()=> {
+    console.log('has hecho click en un chevron' + i);
+    const collapsible = cadaChevron.nextElementSibling;
+    console.log(collapsible);
+    expandContent(collapsible, 'collapsed')
   })
 })
+
+function expandContent (elem, collapseClass) {
+  elem.style.height = '';
+  elem.style.transition = 'none';
+
+  const startHeight = window.getComputedStyle(elem).height;
+  console.log('startHeight is' + startHeight);
+
+  elem.classList.toggle(collapseClass);
+  const height = window.getComputedStyle(elem).height;
+  console.log('height is' + height);
+
+  elem.style.height = startHeight;
+
+  requestAnimationFrame( ()=> {
+    elem.style.transition = '';
+
+    requestAnimationFrame( () => {
+      elem.style.height = height;
+    })
+  })
+
+  elem.addEventListener('transitioned' , () => {
+    elem.style.height = '';
+    elem.removeEventListener('transitioned' , arguments.callee)
+  });
+}
