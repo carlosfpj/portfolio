@@ -8,6 +8,12 @@
   gap: 1rem;
 }
 
+.studies-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .course-image {
   flex: 1;
   padding: 1rem
