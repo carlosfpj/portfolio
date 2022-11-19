@@ -13,7 +13,6 @@ const chevron = document.querySelectorAll('.icon-chevron-down');
 
 chevron.forEach((cadaChevron, i) => {
   cadaChevron.addEventListener('click' , ()=> {
-    console.log('has hecho click en un chevron' + i);
     const parent = cadaChevron.parentElement;
     const collapsible = parent.nextElementSibling;
     expandContent(collapsible, 'collapsed')
