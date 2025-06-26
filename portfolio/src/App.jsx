@@ -1,6 +1,12 @@
 import './App.css';
 import {ImLinkedin} from 'react-icons/im';
 import {FaGithub} from 'react-icons/fa';
+import {GoHome} from 'react-icons/go';
+import {LuUserRound} from 'react-icons/lu';
+import {SlNotebook} from 'react-icons/sl';
+import { GiSkills } from "react-icons/gi";
+import { GrProjects, GrContact } from "react-icons/gr";
+import { FaAngleDown } from "react-icons/fa6";
 import { IconContext } from 'react-icons';
 
 function App() {
@@ -23,44 +29,56 @@ function App() {
           <ul className="nav-core-list">
             <li className="nav-home">
               <a className="nav-item" href="https://carlosfpj.github.io/Portfolio/">
-                <i className="icon-home"></i>
+                <IconContext.Provider value={{ className: "icon-sidebar" }}>
+                  <GoHome />
+                </IconContext.Provider>
                 <p>Home</p>
               </a>
             </li>
             <li className="nav-about">
               <a className="nav-item" href="#about">
-                <i className="icon-users"></i>
+                <IconContext.Provider value={{ className: "icon-sidebar" }}>
+                  <LuUserRound />
+                </IconContext.Provider>
                 <p>About</p>
               </a>
             </li>
             <li className="nav-studies">
               <a className="nav-item" href="#studies">
-                <i className="icon-book"></i>
+                <IconContext.Provider value={{ className: "icon-sidebar" }}>
+                  <SlNotebook />
+                </IconContext.Provider>
                 <p>Studies</p>
               </a>
             </li>
             <li className="nav-skills">
               <a className="nav-item" href="#skills">
-                <i className="icon-code"></i>
+                <IconContext.Provider value={{ className: "icon-sidebar" }}>
+                  <GiSkills />
+                </IconContext.Provider>
                 <p>Skills</p>
               </a>
             </li>
             <li className="nav-projects">
               <a className="nav-item" href="#projects">
-                <i className="icon-text"></i>
+                <IconContext.Provider value={{ className: "icon-sidebar" }}>
+                  <GrProjects />
+                </IconContext.Provider>
                 <p>Projects</p>
               </a>
             </li>
             <li className="nav-contact">
               <a className="nav-item" href="#contact">
-                <i className="icon-phone"></i>
+                <IconContext.Provider value={{ className: "icon-sidebar" }}>
+                  <GrContact />
+                </IconContext.Provider>
                 <p>Contact</p>
               </a>
             </li>
           </ul>
         </div>
         <div className="nav-footer">
-          <i className="icon-chevron-down"></i>
+          <FaAngleDown />
           <p>Scroll</p>
         </div>
       </nav>
