@@ -11,6 +11,12 @@
   height: 1.5em;
 }
 
+.icon-sidebar {
+  vertical-align: middle;
+  width: 1.3em;
+  height: 1.3em;
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -78,13 +84,14 @@
 .nav-item p {
   inline-size: 100%;
   position: absolute;
-  left: 3rem;
+  left: 1.5rem;
   display: none;
 }
 
 .nav-footer {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
+  padding-block-end: 0.2rem;
   gap: .5rem;
 }
 
