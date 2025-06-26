@@ -1,4 +1,7 @@
 import './App.css';
+import {ImLinkedin} from 'react-icons/im';
+import {FaGithub} from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 
 function App() {
   return (
@@ -82,12 +85,16 @@ function App() {
               <ul className="hero-socials-list">
                 <li>
                   <a href="https://www.linkedin.com/in/carlosfpj/" target="_blank" rel="noopener noreferrer">
-                    <i className="icon-linkedin2"></i>
+                    <IconContext.Provider value={{ className: "icon-linkedin" }}>
+                      <ImLinkedin/>
+                    </IconContext.Provider>
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/carlosfpj" target="_blank" rel="noopener noreferrer">
-                    <i className="icon-github"></i>
+                    <IconContext.Provider value={{ className: "icon-linkedin" }}>
+                      <FaGithub />
+                    </IconContext.Provider>
                   </a>
                 </li>
               </ul>
@@ -122,7 +129,7 @@ function App() {
             <div className="experience-experiences">
               <div className="experience-work">
                 <div className="experience-image">
-                  <img src="./Images/licitaya.png" alt="Licitaya" />
+                  <img src="./src/Images/licitaya.png" alt="Licitaya" />
                 </div>
                 <div className="experience-description">
                   <div className="experience-description-title">
