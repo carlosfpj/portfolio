@@ -22,6 +22,10 @@ body {
   height: 1.3em;
 }
 
+.icon-footer {
+  color: #8444df;
+}
+
 .nav {
   position: fixed;
   top: 0;

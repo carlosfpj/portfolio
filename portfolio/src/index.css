@@ -468,6 +468,7 @@ ul {
 
 .sectionHead {
   margin-bottom: 3.125rem;
+  text-align: start;
 }
 
 .sectionHead p:first-child {

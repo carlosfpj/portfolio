@@ -7,6 +7,7 @@ import {SlNotebook} from 'react-icons/sl';
 import { GiSkills } from "react-icons/gi";
 import { GrProjects, GrContact } from "react-icons/gr";
 import { FaAngleDown } from "react-icons/fa6";
+import { BsFillSuitHeartFill } from "react-icons/bs";
 import { IconContext } from 'react-icons';
 
 function App() {
@@ -297,7 +298,9 @@ function App() {
         </section>
         {/* FOOTER */}
         <footer className="footer">
-          <p>Made with <i className="icon-heart"></i> by Carlos Fernando</p>
+          <IconContext.Provider value={{ className: "icon-footer" }}>
+            <p>Made with <BsFillSuitHeartFill /> by Carlos Fernando</p>
+          </IconContext.Provider>
         </footer>
       </main>
     </div>
