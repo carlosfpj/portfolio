@@ -66,15 +66,16 @@ function App() {
         <header className="header" id="header">
           <div className="header-hero">
             <div className="hero-image-container">
-              <img src="./images/me.png" alt="Carlos Fernando" />
+              <img src="./src/Images/me.png" alt="Carlos Fernando" />
             </div>
           </div>
           <div className="hero-description">
             <p className="greeting">HI THERE!!! I AM</p>
             <h1 className="name">Carlos Fernando</h1>
             <p className="smallBio">
-              A <span>Chemical Engineer</span> with 4 years in the Oil&amp;Gas industry and <span>Front-End Web Developer</span> with 11 months of experience
-              in ReactJs passionate about building engineering stuff, either energy or software related.
+              <span>Chemical Engineer</span> with 8 years of experience in the
+              Oil&amp;Gas industry and <span>enthusiastic about programming</span> and
+              experienced in either energy or software-related fields.
             </p>
             <div className="hero-socials">
               <a className="socials-resume" href="./assets/Resume Carlos Pinzón.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
@@ -121,13 +122,13 @@ function App() {
             <div className="experience-experiences">
               <div className="experience-work">
                 <div className="experience-image">
-                  <img src="./images/licitaya.png" alt="Licitaya" />
+                  <img src="./Images/licitaya.png" alt="Licitaya" />
                 </div>
                 <div className="experience-description">
                   <div className="experience-description-title">
                     <h3>LICITAYA.CO</h3>
                     <div className="justify">
-                      <i><img width="20px" height="20px" src="./images/DTI-logo.png" alt="DTI Logo" /></i>
+                      <i><img width="20px" height="20px" src="./src/Images/DTI-logo.png" alt="DTI Logo" /></i>
                       <h4>Digital Tech Ideas</h4>
                     </div>
                   </div>
@@ -175,67 +176,67 @@ function App() {
             <ul className="skills-grid">
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/html.svg" alt="HTML" />
+                  <img src="./src/Images/html.svg" alt="HTML" />
                   <p>HTML</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/css.svg" alt="CSS" />
+                  <img src="./src/Images/css.svg" alt="CSS" />
                   <p>CSS</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/bootstrap.svg" alt="Bootstrap" />
+                  <img src="./src/Images/bootstrap.svg" alt="Bootstrap" />
                   <p>BOOTSTRAP</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/javascript.svg" alt="JavaScript" />
+                  <img src="./src/Images/javascript.svg" alt="JavaScript" />
                   <p>JAVASCRIPT</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/jquery.svg" alt="JQuery" />
+                  <img src="./src/Images/jquery.svg" alt="JQuery" />
                   <p>JQuery</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/react.svg" alt="React" />
+                  <img src="./src/Images/react.svg" alt="React" />
                   <p>REACT</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/vscode.svg" alt="VS Code" />
+                  <img src="./src/Images/vscode.svg" alt="VS Code" />
                   <p>VS CODE</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/git.svg" alt="Git" />
+                  <img src="./src/Images/git.svg" alt="Git" />
                   <p>GIT</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/github.svg" alt="GitHub" />
+                  <img src="./src/Images/github.svg" alt="GitHub" />
                   <p>GITHUB</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/wordpress.svg" alt="WordPress" />
+                  <img src="./src/Images/wordpress.svg" alt="WordPress" />
                   <p>WORDPRESS</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./images/Access.svg" alt="MS Access" />
+                  <img src="./src/Images/Access.svg" alt="MS Access" />
                   <p>MS ACCESS</p>
                 </div>
               </li>
