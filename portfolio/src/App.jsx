@@ -9,6 +9,7 @@ import { GrProjects, GrContact } from "react-icons/gr";
 import { FaAngleDown } from "react-icons/fa6";
 import { BsFillSuitHeartFill } from "react-icons/bs";
 import { IconContext } from 'react-icons';
+import Studies from './components/Studies';
 
 function App() {
   return (
@@ -179,19 +180,7 @@ function App() {
           </article>
         </section>
         {/* STUDIES */}
-        <section className="section studies">
-          <div className="sectionHead" id="studies">
-            <p>Carlos Never stops learning</p>
-            <h2>MY STUDIES</h2>
-          </div>
-          <article className="studies-description sectionContainer">
-            <p>
-              I <b>BELIEVE</b> that passion without discipline isn't enough, that's why I compromise myself to study hard, improve my skills
-              and never stop learning. I found exciting to cross code with chemical engineering after 5 years in college and many more of professional experience.
-            </p>
-            {/* Add studies content here */}
-          </article>
-        </section>
+        <Studies />
         {/* SKILLS */}
         <section className="section skills">
           <div className="sectionHead" id="skills">

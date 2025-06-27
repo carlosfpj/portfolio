@@ -24,11 +24,9 @@ function expandContent (elem, collapseClass) {
   elem.style.transition = 'none';
 
   const startHeight = window.getComputedStyle(elem).height;
-  console.log('startHeight is' + startHeight);
 
   elem.classList.toggle(collapseClass);
   const height = window.getComputedStyle(elem).height;
-  console.log('height is' + height);
 
   elem.style.height = startHeight;
 
