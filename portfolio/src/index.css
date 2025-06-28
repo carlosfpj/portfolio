@@ -158,14 +158,17 @@ html {
   font: var(--body1-bold);
 }
 
-.collapsible {
+.collapsible-content {
   overflow: hidden;
-  transition: all .8s ease-in-out;
-  height: auto;
+  transition: height .8s ease-in-out;
 }
 
-.collapsible.collapsed {
-  height: 0;
+.collapsible-content.collapsed {
+  height: 0px !important;
+}
+
+.collapsible-content:not(.collapsed) {
+  height: auto;
 }
 
 .contact {}

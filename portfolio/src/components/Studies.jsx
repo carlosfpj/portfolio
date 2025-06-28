@@ -1,7 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import CollapsibleContent from './CollapsibleContent';
 import { FaAngleDown } from "react-icons/fa6";
 
 const Studies = () => {
+
+  const [collapsedStates, setCollapsedStates] = useState({
+    section1: false,
+    section2: true,
+    section3: true,
+    section4: true,
+    section5: true,
+    section6: true,
+    section7: true,
+    section8: true,
+    section9: true,
+  });
+
+  // Función para alternar el estado de colapso de una sección específica
+  const toggleCollapse = (sectionId) => {
+    setCollapsedStates(prevState => ({
+      ...prevState,
+      [sectionId]: !prevState[sectionId], // Invierte el estado de la sección clicada
+    }));
+  };
+
   return (
     <section className="section studies">
       <div className="sectionHead" id="studies">
@@ -12,11 +34,14 @@ const Studies = () => {
         <p>I <b>BELIEVE</b> that passion without discipline isn't enough, that's why I compromise myself to study hard, improve my skills
           and never stop learning. I found exciting to cross code with chemical engineering after 5 years in college and many more of professional experience.
         </p>
-        <div class="studies-title">
+        <div className="studies-title">
           <h3>CSS GRID LAYOUT AND INTERFACES</h3>
-          <FaAngleDown className='icon-chevron-down' />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section1 ? 'collapsed' : 'expanded'}`}
+            onClick={()=> toggleCollapse('section1')} />
         </div>
-        <div class="collapsible">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section1}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
@@ -46,22 +71,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>CSS FLEXBOX LAYOUT AND COMPONENTS</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section2 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section2')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section2}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/FlexLayout.png"></img>
+                <img src="./src/Images/FlexLayout.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/leonidasesteban-icon.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/Images/leonidasesteban-icon.png"></img></i>
                     <h4>LeonidasEsteban.com</h4>
                   </div>
                 </div>
@@ -84,22 +112,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>HTML AND CSS ESSENTIAL COURSE</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section3 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section3')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section3}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/HTMLyCSS.png"></img>
+                <img src="./src/Images/HTMLyCSS.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/leonidasesteban-icon.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/Images/leonidasesteban-icon.png"></img></i>
                     <h4>LeonidasEsteban.com</h4>
                   </div>
                 </div>
@@ -125,22 +156,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>JAVASCRIPT AND DOM ESSENTIAL COURSE</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section4 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section4')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section4}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/JS.png"></img>
+                <img src="./src/Images/JS.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/leonidasesteban-icon.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/Images/leonidasesteban-icon.png"></img></i>
                     <h4>LeonidasEsteban.com</h4>
                   </div>
                 </div>
@@ -163,22 +197,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>DATABASE FUNDAMENTALS</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section5 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section5')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section5}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/Database_fundamentals.png"></img>
+                <img src="./src/Images/Database_fundamentals.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -202,22 +239,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>SOFTWARE ENGINEERING FUNDAMENTALS</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section6 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section6')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section6}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/Software_Fundamentals.png"></img>
+                <img src="./src/Images/Software_Fundamentals.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -240,22 +280,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>DEFINITIVE ANDROID COURSE</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section7 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section7')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section7}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/Android.png"></img>
+                <img src="./src/Images/Android.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -279,22 +322,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>ALGORITHMS COURSE WITH C</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section8 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section8')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section8}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/platzi-algoritmos.png"></img>
+                <img src="./src/Images/platzi-algoritmos.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -317,22 +363,25 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
         <hr></hr>
         <div class="studies-title">
           <h3>BASIC PROGRAMMING</h3>
-          <FaAngleDown />
+          <FaAngleDown
+            className={`chevron ${collapsedStates.section9 ? 'collapsed' : 'expanded'}`}
+            onClick={() => toggleCollapse('section9')} />
         </div>
-        <div class="collapsible collapsed">
+        <CollapsibleContent
+          isCollapsed={collapsedStates.section9}>
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./images/platzi-programacionBasica.png"></img>
+                <img src="./src/Images/platzi-programacionBasica.png"></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src="./src/images/platzi-logo.png"></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -356,7 +405,7 @@ const Studies = () => {
               </div>
             </div>
           </div>
-        </div>
+        </CollapsibleContent>
       </article>
     </section>
   );
