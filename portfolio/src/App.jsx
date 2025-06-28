@@ -14,6 +14,23 @@ import me from './Images/me.png';
 import resume from './assets/Resume Carlos Pinzón.pdf';
 import licitaya from './Images/licitaya.png';
 import dtiLogo from './Images/DTI-logo.png';
+import htmlImage from './Images/html.svg';
+import cssImage from './Images/css.svg';
+import bootstrapImage from './Images/bootstrap.svg';
+import javascriptImage from './Images/javascript.svg';
+import jqueryImage from './Images/jquery.svg';
+import reactImage from './Images/react.svg';
+import vscodeImage from './Images/vscode.svg';
+import gitImage from './Images/git.svg';
+import githubImage from './Images/github.svg';
+import wordpressImage from './Images/wordpress.svg';
+import accessImage from './Images/Access.svg';
+import weatherAppImage from './Images/Weather-app.png';
+import calendarImage from './Images/Calendar.png';
+import spotifuImage from './Images/spotifu.png';
+import calculatorImage from './Images/Calculator.png';
+import clockImage from './Images/Clock.png';
+import nemiumImage from './Images/Nemium.png';
 
 function App() {
   return (
@@ -34,7 +51,7 @@ function App() {
         <div className="nav-core">
           <ul className="nav-core-list">
             <li className="nav-home">
-              <a className="nav-item" href="https://carlosfpj.github.io/Portfolio/">
+              <a className="nav-item" href="https://carlosfpj.github.io/portfolio/">
                 <IconContext.Provider value={{ className: "icon-sidebar" }}>
                   <GoHome />
                 </IconContext.Provider>
@@ -194,67 +211,67 @@ function App() {
             <ul className="skills-grid">
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/html.svg" alt="HTML" />
+                  <img src={htmlImage} alt="HTML" />
                   <p>HTML</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/css.svg" alt="CSS" />
+                  <img src={cssImage} alt="CSS" />
                   <p>CSS</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/bootstrap.svg" alt="Bootstrap" />
+                  <img src={bootstrapImage} alt="Bootstrap" />
                   <p>BOOTSTRAP</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/javascript.svg" alt="JavaScript" />
+                  <img src={javascriptImage} alt="JavaScript" />
                   <p>JAVASCRIPT</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/jquery.svg" alt="JQuery" />
+                  <img src={jqueryImage} alt="JQuery" />
                   <p>JQuery</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/react.svg" alt="React" />
+                  <img src={reactImage} alt="React" />
                   <p>REACT</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/vscode.svg" alt="VS Code" />
+                  <img src={vscodeImage} alt="VS Code" />
                   <p>VS CODE</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/git.svg" alt="Git" />
+                  <img src={gitImage} alt="Git" />
                   <p>GIT</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/github.svg" alt="GitHub" />
+                  <img src={githubImage} alt="GitHub" />
                   <p>GITHUB</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/wordpress.svg" alt="WordPress" />
+                  <img src={wordpressImage} alt="WordPress" />
                   <p>WORDPRESS</p>
                 </div>
               </li>
               <li>
                 <div className="skills-item-container">
-                  <img src="./src/Images/Access.svg" alt="MS Access" />
+                  <img src={accessImage} alt="MS Access" />
                   <p>MS ACCESS</p>
                 </div>
               </li>
@@ -271,7 +288,7 @@ function App() {
             <article class="projects-container">
               <div class="project-item">
                 <div class="project-image">
-                  <img src="./src/Images/Weather-app.png"></img>
+                  <img src={weatherAppImage}></img>
                 </div>
                 <div class="project-description">
                   <div class="project-description-title">
@@ -302,7 +319,7 @@ function App() {
             <article class="projects-container">
               <div class="project-item">
                 <div class="project-image">
-                  <img src="./src/Images/Calendar.png"></img>
+                  <img src={calendarImage}></img>
                 </div>
                 <div class="project-description">
                   <div class="project-description-title">
@@ -331,7 +348,7 @@ function App() {
             <article class="projects-container">
               <div class="project-item">
                 <div class="project-image">
-                  <img src="./src/Images/spotifu.png"></img>
+                  <img src={spotifuImage}></img>
                 </div>
                 <div class="project-description">
                   <div class="project-description-title">
@@ -360,7 +377,7 @@ function App() {
             <article class="projects-container">
               <div class="project-item">
                 <div class="project-image">
-                  <img src="./src/Images/Calculator.png"></img>
+                  <img src={calculatorImage}></img>
                 </div>
                 <div class="project-description">
                   <div class="project-description-title">
@@ -387,7 +404,7 @@ function App() {
             <article class="projects-container">
               <div class="project-item">
                 <div class="project-image">
-                  <img src="./src/Images/Clock.png"></img>
+                  <img src={clockImage}></img>
                 </div>
                 <div class="project-description">
                   <div class="project-description-title">
@@ -415,7 +432,7 @@ function App() {
             <article class="projects-container">
               <div class="project-item">
                 <div class="project-image">
-                  <img src="./src/Images/Nemium.png"></img>
+                  <img src={nemiumImage}></img>
                 </div>
                 <div class="project-description">
                   <div class="project-description-title">
