@@ -101,7 +101,7 @@ function App() {
               experienced in either energy or software-related fields.
             </p>
             <div className="hero-socials">
-              <a className="socials-resume" href="./assets/Resume Carlos Pinzón.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a className="socials-resume" href="./src/assets/Resume Carlos Pinzón.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
               <ul className="hero-socials-list">
                 <li>
                   <a href="https://www.linkedin.com/in/carlosfpj/" target="_blank" rel="noopener noreferrer">
