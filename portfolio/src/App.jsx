@@ -10,6 +10,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { BsFillSuitHeartFill } from "react-icons/bs";
 import { IconContext } from 'react-icons';
 import Studies from './components/Studies';
+import me from './Images/me.png';
 
 function App() {
   return (
@@ -89,7 +90,7 @@ function App() {
         <header className="header" id="header">
           <div className="header-hero">
             <div className="hero-image-container">
-              <img src="./src/Images/me.png" alt="Carlos Fernando" />
+              <img src={me} alt="Carlos Fernando" />
             </div>
           </div>
           <div className="hero-description">
