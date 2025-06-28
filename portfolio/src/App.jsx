@@ -11,6 +11,7 @@ import { BsFillSuitHeartFill } from "react-icons/bs";
 import { IconContext } from 'react-icons';
 import Studies from './components/Studies';
 import me from './Images/me.png';
+import resume from './assets/Resume Carlos Pinzón.pdf';
 import licitaya from './Images/licitaya.png';
 import dtiLogo from './Images/DTI-logo.png';
 
@@ -104,7 +105,7 @@ function App() {
               experienced in either energy or software-related fields.
             </p>
             <div className="hero-socials">
-              <a className="socials-resume" href="./src/assets/Resume Carlos Pinzón.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a className="socials-resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
               <ul className="hero-socials-list">
                 <li>
                   <a href="https://www.linkedin.com/in/carlosfpj/" target="_blank" rel="noopener noreferrer">

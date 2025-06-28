@@ -1,6 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import CollapsibleContent from './CollapsibleContent';
 import { FaAngleDown } from "react-icons/fa6";
+import gridCertificate from '../Images/GridLayout.png';
+import Leonidaslogo from '../Images/leonidasesteban-icon.png';
+import platziLogo from '../Images/platzi-logo.png';
+import flexboxCertificate from '../Images/FlexLayout.png';
+import htmlCSSCertificate from '../Images/HTMLyCSS.png';
+import javascriptCertificate from '../Images/JS.png';
+import databaseCertificate from '../Images/Database_fundamentals.png';
+import softwareFundamentalsCertificate from '../Images/Software_Fundamentals.png';
+import androidCertificate from '../Images/Android.png';
+import algorithmsCertificate from '../Images/platzi-algoritmos.png';
+import basicProgrammingCertificate from '../Images/platzi-programacionBasica.png';
 
 const Studies = () => {
 
@@ -45,12 +56,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/GridLayout.png"></img>
+                <img src={gridCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/images/leonidasesteban-icon.png"></img></i>
+                    <i><img width="20px" height="20px" src={Leonidaslogo}></img></i>
                     <h4>LeonidasEsteban.com</h4>
                   </div>
                 </div>
@@ -84,12 +95,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/FlexLayout.png"></img>
+                <img src={flexboxCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/Images/leonidasesteban-icon.png"></img></i>
+                    <i><img width="20px" height="20px" src={Leonidaslogo}></img></i>
                     <h4>LeonidasEsteban.com</h4>
                   </div>
                 </div>
@@ -125,12 +136,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/HTMLyCSS.png"></img>
+                <img src={htmlCSSCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/Images/leonidasesteban-icon.png"></img></i>
+                    <i><img width="20px" height="20px" src={Leonidaslogo}></img></i>
                     <h4>LeonidasEsteban.com</h4>
                   </div>
                 </div>
@@ -169,12 +180,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/JS.png"></img>
+                <img src={javascriptCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/Images/leonidasesteban-icon.png"></img></i>
+                    <i><img width="20px" height="20px" src={Leonidaslogo}></img></i>
                     <h4>LeonidasEsteban.com</h4>
                   </div>
                 </div>
@@ -210,12 +221,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/Database_fundamentals.png"></img>
+                <img src={databaseCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src={platziLogo}></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -252,12 +263,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/Software_Fundamentals.png"></img>
+                <img src={softwareFundamentalsCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src={platziLogo}></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -293,12 +304,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/Android.png"></img>
+                <img src={androidCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src={platziLogo}></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -335,12 +346,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/platzi-algoritmos.png"></img>
+                <img src={algorithmsCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/Images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src={platziLogo}></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
@@ -376,12 +387,12 @@ const Studies = () => {
           <div class="studies-studies">
             <div class="studies-course">
               <div class="course-image">
-                <img src="./src/Images/platzi-programacionBasica.png"></img>
+                <img src={basicProgrammingCertificate}></img>
               </div>
               <div class="course-description">
                 <div class="course-description-title">
                   <div class="justify">
-                    <i><img width="20px" height="20px" src="./src/images/platzi-logo.png"></img></i>
+                    <i><img width="20px" height="20px" src={platziLogo}></img></i>
                     <h4>PLATZI</h4>
                   </div>
                 </div>
