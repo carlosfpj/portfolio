@@ -11,6 +11,8 @@ import { BsFillSuitHeartFill } from "react-icons/bs";
 import { IconContext } from 'react-icons';
 import Studies from './components/Studies';
 import me from './Images/me.png';
+import licitaya from './Images/licitaya.png';
+import dtiLogo from './Images/DTI-logo.png';
 
 function App() {
   return (
@@ -150,13 +152,13 @@ function App() {
             <div className="experience-experiences">
               <div className="experience-work">
                 <div className="experience-image">
-                  <img src="./src/Images/licitaya.png" alt="Licitaya" />
+                  <img src={licitaya} alt="Licitaya" />
                 </div>
                 <div className="experience-description">
                   <div className="experience-description-title">
                     <h3>LICITAYA.CO</h3>
                     <div className="justify">
-                      <i><img width="20px" height="20px" src="./src/Images/DTI-logo.png" alt="DTI Logo" /></i>
+                      <i><img width="20px" height="20px" src={dtiLogo} alt="DTI Logo" /></i>
                       <h4>Digital Tech Ideas</h4>
                     </div>
                   </div>
