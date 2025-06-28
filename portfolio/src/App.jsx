@@ -10,7 +10,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { BsFillSuitHeartFill } from "react-icons/bs";
 import { IconContext } from 'react-icons';
 import Studies from './components/Studies';
-import me from './src/Images/me.png';
+import me from './Images/me.png';
 
 function App() {
   return (
