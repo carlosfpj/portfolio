@@ -152,6 +152,7 @@ function App() {
             </div>
           </div>
         </header>
+        {/* TOGGLE BUTTON */}
         <div className="toggle-container">
           <span className="label">Programming</span>
           <button className="toggle-button" onClick={handleToggle}>
@@ -160,7 +161,7 @@ function App() {
           <span className="label">Oil & Gas</span>
         </div>
         <About show={isPrograming} fade={fadeDirection}/>
-        <Experience />
+        <Experience show={isPrograming} fade={fadeDirection} />
         <Studies />
         {/* SKILLS */}
         <section className="section skills">
