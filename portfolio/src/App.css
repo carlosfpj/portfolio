@@ -152,3 +152,74 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+.toggle-button {
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 999px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+
+.toggle-circle {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-circle.right {
+  transform: translateX(30px);
+}
+
+.fade-in-left {
+  animation: fadeInLeft 0.4s ease forwards;
+}
+
+.fade-in-right {
+  animation: fadeInRight 0.4s ease forwards;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.label {
+  font-weight: bold;
+  margin: 0 1rem;
+}
