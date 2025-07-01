@@ -1,0 +1,185 @@
+import gridCertificate from '../Images/GridLayout.png';
+import flexboxCertificate from '../Images/FlexLayout.png';
+import htmlCSSCertificate from '../Images/HTMLyCSS.png';
+import javascriptCertificate from '../Images/JS.png';
+import databaseCertificate from '../Images/Database_fundamentals.png';
+import softwareFundamentalsCertificate from '../Images/Software_Fundamentals.png';
+import androidCertificate from '../Images/Android.png';
+import algorithmsCertificate from '../Images/platzi-algoritmos.png';
+import basicProgrammingCertificate from '../Images/platzi-programacionBasica.png';
+import Leonidaslogo from '../Images/leonidasesteban-icon.png';
+import platziLogo from '../Images/platzi-logo.png';
+
+const SOFTWARESTUDIES = [
+  {
+    id: 1,
+    CourseName: "CSS Grid Layout and Interfaces",
+    CourseImage: gridCertificate,
+    School: "LeonidasEsteban.com",
+    partnerLogo: Leonidaslogo,
+    topics: [
+      "Column and Row definition.",
+      "Browser tools for Grid Layout.",
+      "Grid Gap.",
+      "Dynamic track sizes.",
+      "Grid Flow.",
+      "Grid Aligning."
+    ],
+    projectLink: "https://leonidasesteban.com/certificados/6f605869-2675-47b1-a6f6-ba44efeaa39c",
+    description: ""
+  },
+  {
+    id: 2,
+    CourseName: "CSS Flexbox Layout and Components",
+    CourseImage: flexboxCertificate,
+    School: "LeonidasEsteban.com",
+    partnerLogo: Leonidaslogo,
+    topics: [
+      "What is a Component.",
+      "Flex Layout Box Model.",
+      "Default Flexbox Configuration.",
+      "Order and Direction.",
+      "Flex Lines.",
+      "Flexibility.",
+      "Alignment."
+    ],
+    projectLink: "https://leonidasesteban.com/certificados/d448bcb6-aab9-4369-8742-6efe210b1a98",
+    description: ""
+  },
+  {
+    id: 3,
+    CourseName: "HTML and CSS Essential Course",
+    CourseImage: htmlCSSCertificate,
+    School: "LeonidasEsteban.com",
+    partnerLogo: Leonidaslogo,
+    topics: [
+      "What is HTML.",
+      "DOM (Document Object Model).",
+      "Labels.",
+      "Semantics.",
+      "Routes and links.",
+      "Menus.",
+      "What is CSS.",
+      "Add CSS to an HTML document.",
+      "CSS Selectors.",
+      "And much much more..."
+    ],
+    projectLink: "https://leonidasesteban.com/certificados/b6c632af-2cb6-478b-ae0e-9e911642e49e",
+    description: ""
+  },
+  {
+    id: 4,
+    CourseName: "Javascript and DOM Essential Course",
+    CourseImage: javascriptCertificate,
+    School: "LeonidasEsteban.com",
+    partnerLogo: Leonidaslogo,
+    topics: [
+      "Add JS in a HTML Document.",
+      "Expressions and Operators.",
+      "Variable types.",
+      "Conditionals and Booleans.",
+      "Objects, functions, arrays.",
+      "Loops.",
+      "Switch.",
+      "Try Catch.",
+      "Error handling.",
+    ],
+    projectLink: "https://leonidasesteban.com/certificados/966a490e-8d39-4cb3-b6f5-d44be977cf1b",
+    description: ""
+  },
+  {
+    id: 5,
+    CourseName: "Database fundamentals",
+    CourseImage: databaseCertificate,
+    School: "Platzi",
+    partnerLogo: platziLogo,
+    topics: [
+      "What is a database.",
+      "DDL (Data Definition languaje).",
+      "Database entity and relationships.",
+      "Database normalization.",
+      "Queries.",
+      "Nested Queries.",
+      "Non relational Databases.",
+      "Relational Databases.",
+    ],
+    projectLink: "https://platzi.com/p/CarlosFernando/curso/1183-bd-2017/diploma/detalle/",
+    description: ""
+  },
+  {
+    id: 6,
+    CourseName: "Software Engineering Fundamentals",
+    CourseImage: softwareFundamentalsCertificate,
+    School: "Platzi",
+    partnerLogo: platziLogo,
+    topics: [
+      "What are bits and Bytes.",
+      "Processors and CPU architectures.",
+      "What is RAM memory and hard memory.",
+      "Internet protocols.",
+      "What is an IP.",
+      "DNS (Domain Name System).",
+      "How does .zip works: Binary Tree.",
+    ],
+    projectLink: "https://platzi.com/p/CarlosFernando/curso/1098-ingenieria/diploma/detalle/",
+    description: ""
+  },
+  {
+    id: 7,
+    CourseName: "Definitive Android Course",
+    CourseImage: androidCertificate,
+    School: "Platzi",
+    partnerLogo: platziLogo,
+    topics: [
+      "XML.",
+      "Linear Layout.",
+      "Relative Layout.",
+      "RecyclerView.",
+      "Toolbar and BottomBar.",
+      "Material Design.",
+      "MVC.",
+      "Hardware access"
+    ],
+    projectLink: "https://platzi.com/p/CarlosFernando/curso/1049-android-2016/diploma/detalle/",
+    description: ""
+  },
+  {
+    id: 8,
+    CourseName: "Algorithms Course with C",
+    CourseImage: algorithmsCertificate,
+    School: "Platzi",
+    partnerLogo: platziLogo,
+    topics: [
+      "Bits and Bytes.",
+      "Variables and Constants.",
+      "String and numbers.",
+      "Booleans and Arrays.",
+      "Loops.",
+      "Exceptions and Errors.",
+      "Functions.",
+    ],
+    projectLink: "https://platzi.com/p/CarlosFernando/curso/1189-algoritmos-2017/diploma/detalle/",
+    description: ""
+  },
+  {
+    id: 9,
+    CourseName: "Basic Programming",
+    CourseImage: basicProgrammingCertificate,
+    School: "Platzi",
+    partnerLogo: platziLogo,
+    topics: [
+      "Inputs.",
+      "Flow and conditionals.",
+      "Variables.",
+      "Functions.",
+      "HTML forms.",
+      "Keyboard events.",
+      "Math functions.",
+      "Javascript classes and arrays"
+    ],
+    projectLink: "https://platzi.com/p/CarlosFernando/curso/1050-programacion-basica/diploma/detalle/",
+    description: ""
+  },
+];
+
+export default SOFTWARESTUDIES;

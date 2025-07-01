@@ -162,7 +162,7 @@ function App() {
         </div>
         <About show={isPrograming} fade={fadeDirection}/>
         <Experience show={isPrograming} fade={fadeDirection} />
-        <Studies />
+        <Studies show={isPrograming} />
         {/* SKILLS */}
         <section className="section skills">
           <div className="sectionHead" id="skills">
