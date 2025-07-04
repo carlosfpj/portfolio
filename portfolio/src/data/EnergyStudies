@@ -1,13 +1,15 @@
 import collegeImage from '../Images/CollegeImage.jpg';
 import collegeLogo from '../Images/UisLogo.png';
+import postCollegeImage from '../Images/PostCollegeImage.jpg';
+import postCollegeLogo from '../Images/PostCollegeLogo.png';
 
 const ENERGYSTUDIES = [
   {
     id: 1,
-    CourseName: "Chemical Engineerging",
-    CourseImage: collegeImage,
-    School: "Universidad Industrial de Santander",
-    partnerLogo: collegeLogo,
+    CourseName: "Energy Resources Management",
+    CourseImage: postCollegeImage,
+    School: "Universidad Autónoma de Bucaramanga",
+    partnerLogo: postCollegeLogo,
     topics: [
       "Chemical Engineering Fundamentals.",
       "Thermodynamics.",
@@ -30,6 +32,36 @@ const ENERGYSTUDIES = [
     "curriculum is designed to provide students with a strong foundation in chemical engineering principles " +
     "and practices, preparing them for careers in various industries such as petrochemicals, pharmaceuticals, " +
     "food processing, and environmental management."
+  },
+
+  {
+    id: 2,
+    CourseName: "Chemical Engineerging",
+    CourseImage: collegeImage,
+    School: "Universidad Industrial de Santander",
+    partnerLogo: collegeLogo,
+    topics: [
+      "Chemical Engineering Fundamentals.",
+      "Thermodynamics.",
+      "Fluid Mechanics.",
+      "Mass Transfer.",
+      "Chemical Reaction Engineering.",
+      "Process Control.",
+      "Separation Processes.",
+      "Process Design.",
+      "Environmental Engineering.",
+      "Safety and Risk Management.",
+      "Project Management.",
+      "Process Simulation.",
+      "Process Optimization.",
+    ],
+    projectLink: "https://uis.edu.co/",
+    description: "Bachelor's degree in Chemical Engineering from Universidad Industrial de Santander, " +
+      "Colombia. The program covers a wide range of topics including thermodynamics, fluid mechanics, " +
+      "mass transfer, chemical reaction engineering, process control, and environmental engineering. The " +
+      "curriculum is designed to provide students with a strong foundation in chemical engineering principles " +
+      "and practices, preparing them for careers in various industries such as petrochemicals, pharmaceuticals, " +
+      "food processing, and environmental management."
   },
 ]
 
