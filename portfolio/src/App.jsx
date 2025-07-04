@@ -14,17 +14,6 @@ import Studies from './components/Studies';
 import Experience from './components/Experience';
 import me from './Images/me.png';
 import resume from './assets/Resume Carlos Pinzón.pdf';
-import htmlImage from './Images/html.svg';
-import cssImage from './Images/css.svg';
-import bootstrapImage from './Images/bootstrap.svg';
-import javascriptImage from './Images/javascript.svg';
-import jqueryImage from './Images/jquery.svg';
-import reactImage from './Images/react.svg';
-import vscodeImage from './Images/vscode.svg';
-import gitImage from './Images/git.svg';
-import githubImage from './Images/github.svg';
-import wordpressImage from './Images/wordpress.svg';
-import accessImage from './Images/Access.svg';
 import weatherAppImage from './Images/Weather-app.png';
 import calendarImage from './Images/Calendar.png';
 import spotifuImage from './Images/spotifu.png';
@@ -32,6 +21,7 @@ import calculatorImage from './Images/Calculator.png';
 import clockImage from './Images/Clock.png';
 import nemiumImage from './Images/Nemium.png';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
 
@@ -164,82 +154,7 @@ function App() {
         <Experience show={isPrograming} fade={fadeDirection} />
         <Studies show={isPrograming} />
         {/* SKILLS */}
-        <section className="section skills">
-          <div className="sectionHead" id="skills">
-            <p>Check out my</p>
-            <h2>SKILLS</h2>
-          </div>
-          <article className="skills-skills sectionContainer">
-            <ul className="skills-grid">
-              <li>
-                <div className="skills-item-container">
-                  <img src={htmlImage} alt="HTML" />
-                  <p>HTML</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={cssImage} alt="CSS" />
-                  <p>CSS</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={bootstrapImage} alt="Bootstrap" />
-                  <p>BOOTSTRAP</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={javascriptImage} alt="JavaScript" />
-                  <p>JAVASCRIPT</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={jqueryImage} alt="JQuery" />
-                  <p>JQuery</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={reactImage} alt="React" />
-                  <p>REACT</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={vscodeImage} alt="VS Code" />
-                  <p>VS CODE</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={gitImage} alt="Git" />
-                  <p>GIT</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={githubImage} alt="GitHub" />
-                  <p>GITHUB</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={wordpressImage} alt="WordPress" />
-                  <p>WORDPRESS</p>
-                </div>
-              </li>
-              <li>
-                <div className="skills-item-container">
-                  <img src={accessImage} alt="MS Access" />
-                  <p>MS ACCESS</p>
-                </div>
-              </li>
-            </ul>
-          </article>
-        </section>
+        <Skills show={isPrograming} fade={fadeDirection} />
         {/* PROJECTS */}
         <section className="section projects">
           <div className="sectionHead" id="projects">

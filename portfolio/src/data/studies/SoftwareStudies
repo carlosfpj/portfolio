@@ -1,14 +1,14 @@
-import gridCertificate from '../Images/GridLayout.png';
-import flexboxCertificate from '../Images/FlexLayout.png';
-import htmlCSSCertificate from '../Images/HTMLyCSS.png';
-import javascriptCertificate from '../Images/JS.png';
-import databaseCertificate from '../Images/Database_fundamentals.png';
-import softwareFundamentalsCertificate from '../Images/Software_Fundamentals.png';
-import androidCertificate from '../Images/Android.png';
-import algorithmsCertificate from '../Images/platzi-algoritmos.png';
-import basicProgrammingCertificate from '../Images/platzi-programacionBasica.png';
-import Leonidaslogo from '../Images/leonidasesteban-icon.png';
-import platziLogo from '../Images/platzi-logo.png';
+import gridCertificate from '../../Images/GridLayout.png';
+import flexboxCertificate from '../../Images/FlexLayout.png';
+import htmlCSSCertificate from '../../Images/HTMLyCSS.png';
+import javascriptCertificate from '../../Images/JS.png';
+import databaseCertificate from '../../Images/Database_fundamentals.png';
+import softwareFundamentalsCertificate from '../../Images/Software_Fundamentals.png';
+import androidCertificate from '../../Images/Android.png';
+import algorithmsCertificate from '../../Images/platzi-algoritmos.png';
+import basicProgrammingCertificate from '../../Images/platzi-programacionBasica.png';
+import Leonidaslogo from '../../Images/leonidasesteban-icon.png';
+import platziLogo from '../../Images/platzi-logo.png';
 
 const SOFTWARESTUDIES = [
   {

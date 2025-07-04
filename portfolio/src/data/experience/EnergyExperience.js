@@ -1,11 +1,11 @@
-import licitayaImage from "../Images/licitaya.png";
-import seringtecLogo from "../Images/seringteclogo.jpeg";
-import VrcLogo from "../Images/VrcLogo.png";
-import VrcImage from "../Images/VRC.jpg";
-import HeronLogo from "../Images/logo-heron.png";
-import HeronImage from "../Images/HeronImagen.jpg";
-import CpmImage from "../Images/CPMImagen.jpg";
-import CpmLogo from "../Images/CPMLogo.svg";
+import licitayaImage from "../../Images/licitaya.png";
+import seringtecLogo from "../../Images/seringteclogo.jpeg";
+import VrcLogo from "../../Images/VrcLogo.png";
+import VrcImage from "../../Images/VRC.jpg";
+import HeronLogo from "../../Images/logo-heron.png";
+import HeronImage from "../../Images/HeronImagen.jpg";
+import CpmImage from "../../Images/CPMImagen.jpg";
+import CpmLogo from "../../Images/CPMLogo.svg";
 
 const ENERGYEXPERIENCES = [
   {

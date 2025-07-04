@@ -1,8 +1,8 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import CollapsibleContent from './CollapsibleContent';
 import { FaAngleDown } from "react-icons/fa6";
-import ENERGYSTUDIES from '../data/EnergyStudies';
-import SOFTWARESTUDIES from '../data/SoftwareStudies';
+import ENERGYSTUDIES from '../data/studies/EnergyStudies';
+import SOFTWARESTUDIES from '../data/studies/SoftwareStudies';
 
 
 const Studies = ({ show }) => {

@@ -1,5 +1,5 @@
-import licitayaImage from "../Images/licitaya.png";
-import licitayaLogo from "../Images/DTI-logo.png";
+import licitayaImage from "../../Images/licitaya.png";
+import licitayaLogo from "../../Images/DTI-logo.png";
 
 const SOFTWAREEXPERIENCES = [
   {

@@ -1,7 +1,7 @@
-import collegeImage from '../Images/CollegeImage.jpg';
-import collegeLogo from '../Images/UisLogo.png';
-import postCollegeImage from '../Images/PostCollegeImage.jpg';
-import postCollegeLogo from '../Images/PostCollegeLogo.png';
+import collegeImage from "../../Images/CollegeImage.jpg";
+import collegeLogo from "../../Images/UisLogo.png";
+import postCollegeImage from "../../Images/PostCollegeImage.jpg";
+import postCollegeLogo from "../../Images/PostCollegeLogo.png";
 
 const ENERGYSTUDIES = [
   {

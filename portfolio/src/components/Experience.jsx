@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import SoftwareExperience from '../data/SoftwareExperience';
-import EnergyExperience from '../data/EnergyExperience';
+import SoftwareExperience from '../data/experience/SoftwareExperience';
+import EnergyExperience from '../data/experience/EnergyExperience';
 
 const Experience = ({show}) => {
   return (
