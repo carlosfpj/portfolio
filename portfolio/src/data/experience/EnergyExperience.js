@@ -1,5 +1,6 @@
 import licitayaImage from "../../Images/licitaya.png";
 import seringtecLogo from "../../Images/seringteclogo.jpeg";
+import sertingtecImage from "../../Images/seringtecImage.png";
 import VrcLogo from "../../Images/VrcLogo.png";
 import VrcImage from "../../Images/VRC.jpg";
 import HeronLogo from "../../Images/logo-heron.png";
@@ -11,7 +12,7 @@ const ENERGYEXPERIENCES = [
   {
     id: 1,
     Position: "SERINGTEC",
-    Image: licitayaImage,
+    Image: sertingtecImage,
     partnerCompany: "SERINGTEC",
     partnerLogo: seringtecLogo,
     technologies: [
