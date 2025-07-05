@@ -14,14 +14,9 @@ import Studies from './components/Studies';
 import Experience from './components/Experience';
 import me from './Images/me.png';
 import resume from './assets/Resume Carlos Pinzón.pdf';
-import weatherAppImage from './Images/Weather-app.png';
-import calendarImage from './Images/Calendar.png';
-import spotifuImage from './Images/spotifu.png';
-import calculatorImage from './Images/Calculator.png';
-import clockImage from './Images/Clock.png';
-import nemiumImage from './Images/Nemium.png';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -106,7 +101,6 @@ function App() {
         </div>
       </nav>
       <main className="portfolio">
-        {/* HEADER */}
         <header className="header" id="header">
           <div className="header-hero">
             <div className="hero-image-container">
@@ -153,187 +147,8 @@ function App() {
         <About show={isPrograming} fade={fadeDirection}/>
         <Experience show={isPrograming} fade={fadeDirection} />
         <Studies show={isPrograming} />
-        {/* SKILLS */}
         <Skills show={isPrograming} fade={fadeDirection} />
-        {/* PROJECTS */}
-        <section className="section projects">
-          <div className="sectionHead" id="projects">
-            <p>Take a look at my</p>
-            <h2>PROJECTS</h2>
-          </div>
-          <article className="sectionContainer">
-            <article class="projects-container">
-              <div class="project-item">
-                <div class="project-image">
-                  <img src={weatherAppImage}></img>
-                </div>
-                <div class="project-description">
-                  <div class="project-description-title">
-                    <h3>WEATHER APP</h3>
-                    <h4>Keep updated and ready no mather the weather</h4>
-                    <h4>Technologies Used: <span class="techSpan">Javascript</span>, <span class="techSpan">OpenWeatherAPI</span>,
-                      <span class="techSpan">HTML</span>, <span class="techSpan">CSS</span>
-                    </h4>
-                  </div>
-                  <div class="project-description-topics">
-                    <ul>
-                      <li>App must detect your location using geolocation API previous request.</li>
-                      <li>You can see the current day's weather at different times.</li>
-                      <li>You can Check the weather of the next day at different times.</li>
-                      <li>Background image should change according to weather and time conditions.</li>
-                      <li>Optimized for Mobile.</li>
-                      <li>If the weather is too hot, in the shade is your spot.</li>
-                    </ul>
-                  </div>
-                  <div class="project-description-media">
-                    <a href="https://weather-app-seven-pi.vercel.app" target="_blank">Project Live</a>
-                    <a href="https://github.com/carlosfpj/weather-app" target="_blank">Project Repo</a>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <hr></hr>
-            <article class="projects-container">
-              <div class="project-item">
-                <div class="project-image">
-                  <img src={calendarImage}></img>
-                </div>
-                <div class="project-description">
-                  <div class="project-description-title">
-                    <h3>CALENDAR</h3>
-                    <h4>Make the most of your time and plan your activities in this incredible calendar.</h4>
-                    <h4>Technologies Used: <span class="techSpan">Javascript</span>, <span class="techSpan">HTML</span>,
-                      <span class="techSpan">CSS</span>, <span class="techSpan">Grid-Layout</span>
-                    </h4>
-                  </div>
-                  <div class="project-description-topics">
-                    <ul>
-                      <li>CSS grid layout 100%.</li>
-                      <li>Calendar can be seen in day or Week.</li>
-                      <li>Dark theme support.</li>
-                      <li>Dates in Calendar appear closer than they are.</li>
-                    </ul>
-                  </div>
-                  <div class="project-description-media">
-                    <a href="https://carlosfpj.github.io/Calendario/index.html" target="_blank">Project Live</a>
-                    <a href="https://github.com/carlosfpj/Calendario" target="_blank">Project Repo</a>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <hr></hr>
-            <article class="projects-container">
-              <div class="project-item">
-                <div class="project-image">
-                  <img src={spotifuImage}></img>
-                </div>
-                <div class="project-description">
-                  <div class="project-description-title">
-                    <h3>SPOTIFU</h3>
-                    <h4>Spotify clone, the leading global platform for on-demand music consumption</h4>
-                    <h4>Technologies Used: <span class="techSpan">HTML</span>, <span class="techSpan">CSS</span>,
-                      <span class="techSpan">FlexBox Layout</span>, <span class="techSpan">Accessibility</span>
-                    </h4>
-                  </div>
-                  <div class="project-description-topics">
-                    <ul>
-                      <li>Pixel perfect Spotify clone.</li>
-                      <li>Project based only in flex-box layout.</li>
-                      <li>Project with high accessibility standard.</li>
-                      <li>Let the magic of music spread in our lives</li>
-                    </ul>
-                  </div>
-                  <div class="project-description-media">
-                    <a href="https://carlosfpj.github.io/Spotifu/" target="_blank">Project Live</a>
-                    <a href="https://github.com/carlosfpj/Spotifu" target="_blank">Project Repo</a>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <hr></hr>
-            <article class="projects-container">
-              <div class="project-item">
-                <div class="project-image">
-                  <img src={calculatorImage}></img>
-                </div>
-                <div class="project-description">
-                  <div class="project-description-title">
-                    <h3>CALCULATOR</h3>
-                    <h4>Fall in love with Math with THE Calculator</h4>
-                    <h4>Technologies Used: <span class="techSpan">Javascript</span>, <span class="techSpan">CSS</span>,
-                      <span class="techSpan">HTML</span>, <span class="techSpan">Grid Layout</span>
-                    </h4>
-                  </div>
-                  <div class="project-description-topics">
-                    <ul>
-                      <li>Perform any basic mathematical operation.</li>
-                      <li>It will never dissapoint you.</li>
-                    </ul>
-                  </div>
-                  <div class="project-description-media">
-                    <a href="https://calculadora-opal.vercel.app" target="_blank">Project Live</a>
-                    <a href="https://github.com/carlosfpj/Calculadora" target="_blank">Project Repo</a>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <hr></hr>
-            <article class="projects-container">
-              <div class="project-item">
-                <div class="project-image">
-                  <img src={clockImage}></img>
-                </div>
-                <div class="project-description">
-                  <div class="project-description-title">
-                    <h3>Digital Clock</h3>
-                    <h4>Excuse me!!! What time is it?</h4>
-                    <h4>Technologies Used: <span class="techSpan">Javascript</span>, <span class="techSpan">CSS</span>,
-                      <span class="techSpan">HTML</span>, <span class="techSpan">Vercel</span>
-                    </h4>
-                  </div>
-                  <div class="project-description-topics">
-                    <ul>
-                      <li>Digital Clock gives you the current time.</li>
-                      <li>Sets background according to day time.</li>
-                      <li>Where time and code merges.</li>
-                    </ul>
-                  </div>
-                  <div class="project-description-media">
-                    <a href="https://reloj-kappa.vercel.app" target="_blank">Project Live</a>
-                    <a href="https://github.com/carlosfpj/Reloj" target="_blank">Project Repo</a>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <hr></hr>
-            <article class="projects-container">
-              <div class="project-item">
-                <div class="project-image">
-                  <img src={nemiumImage}></img>
-                </div>
-                <div class="project-description">
-                  <div class="project-description-title">
-                    <h3>NEMIUM</h3>
-                    <h4>This is where all begins</h4>
-                    <h4>Technologies Used: <span class="techSpan">HTML</span>, <span class="techSpan">CSS</span>
-                    </h4>
-                  </div>
-                  <div class="project-description-topics">
-                    <ul>
-                      <li>Blog site about web development.</li>
-                      <li>Fun to code, lot to learn.</li>
-                      <li>5 different designs.</li>
-                    </ul>
-                  </div>
-                  <div class="project-description-media">
-                    <a href="https://carlosfpj.github.io/Nemium-All/" target="_blank">Project Live</a>
-                    <a href="https://github.com/carlosfpj/Nemium-All" target="_blank">Project Repo</a>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </article>
-        </section>
+        <Projects show={isPrograming} fade={fadeDirection} />
         {/* CONTACT */}
         <section className="section contact">
           <div className="sectionHead" id="contact">
