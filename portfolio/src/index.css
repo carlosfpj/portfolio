@@ -319,7 +319,7 @@ footer i {
 }
 
 .hero-description span {
-  color: var(--purple20);
+  /* color: var(--purple20); */
   font-weight: 600;
 }
 

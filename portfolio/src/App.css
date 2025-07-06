@@ -247,3 +247,11 @@ body {
 .oil-gas-mode3:hover {
   background-color: var(--brown30);
 }
+
+.programming-color1 {
+  color: var(--purple10);
+}
+
+.oil-gas-color1 {
+  color: var(--brown10);
+}
