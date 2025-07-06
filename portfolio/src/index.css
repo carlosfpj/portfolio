@@ -5,6 +5,10 @@
     --white20: #eee;
     --purple10: #8444df;
     --purple20: #773dc8;
+    --purple30: #9D69E5;
+    --brown10: #7D5260;
+    --brown20: #633B48;
+    --brown30: #FFD8E4;
     --black: #050505;
     --sepia: #774e24;
     --red: #a4243B;
@@ -323,6 +327,7 @@ footer i {
   display: flex;
   margin-top: 1rem;
   align-items: center;
+  justify-content: center;
 }
 
 .socials-resume {
@@ -349,7 +354,7 @@ footer i {
 
 .hero-socials-list li {
   margin-inline: 10px;
-  color: var(--purple10);
+  /* color: var(--purple10); */
   outline: none;
 }
 

@@ -71,7 +71,6 @@ const ENERGYEXPERIENCES = [
     partnerLogo: CpmLogo,
     technologies: [
       "Aspen Hysys",
-      "SLB Pipesim",
     ],
     projectLink: "",
     description: "As a Mid Process Engineer at Seringtec, I was responsible for the conceptual, basic, and " +
