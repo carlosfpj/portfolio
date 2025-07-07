@@ -50,7 +50,7 @@ const Studies = ({ show }) => {
     <section className="section studies">
       <div className="sectionHead" id="studies">
         <p>Carlos Never stops learning</p>
-        <h2>MY STUDIES</h2>
+        <h2 className={`${!show ? "programming-color1" : "oil-gas-color1"}`}>MY STUDIES</h2>
       </div>
       {show ? (
         // Bloque para ENERGYSTUDIES

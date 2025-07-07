@@ -1,7 +1,5 @@
 import './App.css';
 import React, { useState } from 'react';
-import { BsFillSuitHeartFill } from "react-icons/bs";
-import { IconContext } from 'react-icons';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Studies from './components/Studies';
@@ -9,6 +7,8 @@ import Experience from './components/Experience';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
       <Navbar show={isPrograming} />
       {/* MAIN CONTENT */}
       <main className="portfolio">
-      <Header show={isPrograming} />
+        <Header show={isPrograming} />
         {/* TOGGLE BUTTON */}
         <div className="toggle-container">
           <span className="label">Programming</span>
@@ -47,29 +47,8 @@ function App() {
         <Studies show={isPrograming} />
         <Skills show={isPrograming} fade={fadeDirection} />
         <Projects show={isPrograming} fade={fadeDirection} />
-        {/* CONTACT */}
-        <section className="section contact">
-          <div className="sectionHead" id="contact">
-            <p>Send Greetings</p>
-            <h2>CONTACT</h2>
-          </div>
-          <article className="sectionContainer">
-            <h3>Get in Touch</h3>
-            <div className="contact-points">
-              <div className="contact-box">
-                <i className="icon-mail"></i>
-                <a href="mailto:cafer89@gmail.com">cafer89@gmail.com</a>
-                <p>E-mail me</p>
-              </div>
-            </div>
-          </article>
-        </section>
-        {/* FOOTER */}
-        <footer className="footer">
-          <IconContext.Provider value={{ className: "icon-footer" }}>
-            <p>Made with <BsFillSuitHeartFill /> by Carlos Fernando</p>
-          </IconContext.Provider>
-        </footer>
+        <Contact show={isPrograming}/>
+        <Footer show={isPrograming}/>
       </main>
     </div>
   );

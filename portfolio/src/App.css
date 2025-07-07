@@ -23,7 +23,7 @@ body {
 }
 
 .icon-footer {
-  color: #8444df;
+  /* color: #8444df; */
   height: 1.5em;
   width: 1.5em;
   vertical-align: middle;
@@ -167,7 +167,7 @@ body {
 .toggle-circle {
   width: 24px;
   height: 24px;
-  background-color: white;
+  background-color: var(--purple10);
   border-radius: 50%;
   position: absolute;
   top: 3px;
@@ -178,6 +178,7 @@ body {
 
 .toggle-circle.right {
   transform: translateX(30px);
+  background-color: var(--brown10);
 }
 
 .fade-in-left {

@@ -5,18 +5,18 @@ const About = ({show, fade}) => {
     <section className="section about">
       <div className="sectionHead" id="about">
         <p>Some info</p>
-        <h2>ABOUT ME</h2>
+        <h2 className={`${!show ? "programming-color1" : "oil-gas-color1"}`}>ABOUT ME</h2>
       </div>
       <article className={`about-description sectionContainer ${fade}`}>
         {show ? (
           <p>
-            Chemical Engineer with 4 years of experience in the design, construction, pre-commissioning,
+            Chemical Engineer with 8 years of experience in the design, construction, pre-commissioning,
             commissioning, and start-up of oil&amp;gas facilities.
           </p>
         ) : (
           <p>
-              self-taught software developer, passionate
-              about building fun code and bringing software solutions to engineering problems.
+            As a self-taught software developer, my
+            passion is to transform engineering problems into creative software solutions that are fun to code.
           </p>
         )}
       </article>

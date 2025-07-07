@@ -8,7 +8,7 @@ const Skills = ({show}) => {
    <section className="section skills">
     <div className="sectionHead" id="skills">
       <p>Check out my</p>
-      <h2>SKILLS</h2>
+        <h2 className={`${!show ? "programming-color1" : "oil-gas-color1"}`}>SKILLS</h2>
     </div>
     <article className="skills-skills sectionContainer">
       <ul className="skills-grid">

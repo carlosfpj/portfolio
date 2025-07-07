@@ -43,7 +43,7 @@ const SOFTWARESKILLS = [
   },
   {
     id: 7,
-    name: "Visual Studio Code",
+    name: "Visual Studio",
     Image: vscodeImage,
   },
   {
@@ -63,7 +63,7 @@ const SOFTWARESKILLS = [
   },
   {
     id: 11,
-    name: "Microsoft Access",
+    name: "MS Access",
     Image: accessImage,
   }
 ];

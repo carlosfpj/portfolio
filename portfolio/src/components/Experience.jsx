@@ -7,7 +7,7 @@ const Experience = ({show}) => {
     <section className="section experience">
       <div className="sectionHead" id="experience">
         <p>Diving in</p>
-        <h2>REAL WORK EXPERIENCE</h2>
+        <h2 className={`${!show ? "programming-color1" : "oil-gas-color1"}`}>REAL WORK EXPERIENCE</h2>
       </div>
       <article className="experience-description sectionContainer">
         <p>
