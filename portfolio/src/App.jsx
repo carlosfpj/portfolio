@@ -35,12 +35,17 @@ function App() {
       <main className="portfolio">
         <Header show={isPrograming} />
         {/* TOGGLE BUTTON */}
-        <div className="toggle-container">
-          <span className="label">Programming</span>
-          <button className="toggle-button" onClick={handleToggle}>
-            <div className={`toggle-circle ${isPrograming ? 'right' : 'left'}`}/>
-          </button>
-          <span className="label">Oil & Gas</span>
+        <div>
+          <div className="toggle-container">
+            <p>Switch portfolio view</p>
+          </div>
+          <div className="toggle-container">
+            <span className="label programming-color1">Programming</span>
+            <button className="toggle-button" onClick={handleToggle}>
+              <div className={`toggle-circle ${isPrograming ? 'right' : 'left'}`} />
+            </button>
+            <span className="label oil-gas-color1">Oil & Gas</span>
+          </div>
         </div>
         <About show={isPrograming} fade={fadeDirection}/>
         <Experience show={isPrograming} fade={fadeDirection} />
