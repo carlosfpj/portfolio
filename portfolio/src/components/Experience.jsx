@@ -1,4 +1,7 @@
 import React, { Fragment } from 'react';
+import { IconContext } from 'react-icons';
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { MdOutlineOilBarrel } from "react-icons/md";
 import SoftwareExperience from '../data/experience/SoftwareExperience';
 import EnergyExperience from '../data/experience/EnergyExperience';
 
@@ -26,6 +29,9 @@ const Experience = ({show}) => {
                   <div className="experience-description">
                     <div className="experience-description-title">
                       <h3>{exp.Position}</h3>
+                        <IconContext.Provider value={{ className: "icon-footer", color: "#8444df" }}>
+                          <LiaLaptopCodeSolid />
+                        </IconContext.Provider>
                       <div className="justify">
                         {exp.partnerLogo && (
                           <i><img width="20px" height="20px" src={exp.partnerLogo} alt="DTI Logo" /></i>
@@ -55,11 +61,14 @@ const Experience = ({show}) => {
                 <Fragment key={exp.index || index}>
                   <div className="experience-work">
                     <div className="experience-image">
-                      <img src={exp.Image} alt="LicitayaImage" />
+                      <img src={exp.Image} alt={exp.partnerCompany} />
                     </div>
                     <div className="experience-description">
                       <div className="experience-description-title">
-                        <h3>{exp.company}</h3>
+                        <h3>{exp.Position}</h3>
+                        <IconContext.Provider value={{ className: "icon-footer", color: "#7D5260" }}>
+                          <MdOutlineOilBarrel />
+                        </IconContext.Provider>
                         <div className="justify">
                           {exp.partnerLogo && (
                             <i><img width="20px" height="20px" src={exp.partnerLogo} alt="DTI Logo" /></i>

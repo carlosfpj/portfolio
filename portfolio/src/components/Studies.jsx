@@ -12,9 +12,8 @@ const Studies = ({ show }) => {
   const initializeCollapsedStates = (studiesArray) => {
     const initialState = {};
     studiesArray.forEach((study, index) => {
-      // Usar study.id si existe y es único, de lo contrario, usar un identificador basado en el índice y el tipo
       const id = study.id || `study-${index}`;
-      initialState[id] = true; // Por defecto, todos colapsados
+      initialState[id] = index !== 0;
     });
     return initialState;
   };
@@ -67,7 +66,7 @@ const Studies = ({ show }) => {
                   <h3>{study.CourseName}</h3>
                   <FaAngleDown
                     // Aquí es donde vinculas el chevron al ID único del estudio
-                    className={`chevron ${collapsedStates[studyId] ? 'collapsed' : 'expanded'}`}
+                    className={`chevron ${collapsedStates[studyId] ? 'collapsed' : ''}`}
                     onClick={() => toggleCollapse(studyId)} />
                 </div>
                 <CollapsibleContent

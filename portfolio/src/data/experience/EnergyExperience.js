@@ -11,7 +11,7 @@ import CpmLogo from "../../Images/CPMLogo.svg";
 const ENERGYEXPERIENCES = [
   {
     id: 1,
-    Position: "SERINGTEC",
+    Position: "Mid Senior Process Engineer",
     Image: sertingtecImage,
     partnerCompany: "SERINGTEC",
     partnerLogo: seringtecLogo,
