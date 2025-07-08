@@ -1,5 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { MdOutlineOilBarrel } from "react-icons/md";
+import { IconContext } from 'react-icons';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Studies from './components/Studies';
@@ -41,9 +44,15 @@ function App() {
           </div>
           <div className="toggle-container">
             <span className="label programming-color1">Programming</span>
+            <IconContext.Provider value={{ className: "icon-footer", color: "#8444df" }}>
+              <LiaLaptopCodeSolid />
+            </IconContext.Provider>
             <button className="toggle-button" onClick={handleToggle}>
               <div className={`toggle-circle ${isPrograming ? 'right' : 'left'}`} />
             </button>
+            <IconContext.Provider value={{ className: "icon-footer", color: "#7D5260" }}>
+              <MdOutlineOilBarrel />
+            </IconContext.Provider>
             <span className="label oil-gas-color1">Oil & Gas</span>
           </div>
         </div>
