@@ -32,12 +32,12 @@ const Experience = ({show}) => {
                         <IconContext.Provider value={{ className: "icon-footer", color: "#8444df" }}>
                           <LiaLaptopCodeSolid />
                         </IconContext.Provider>
-                      <div className="justify">
-                        {exp.partnerLogo && (
-                          <i><img width="20px" height="20px" src={exp.partnerLogo} alt="DTI Logo" /></i>
-                        )}
-                        <h4>{exp.partnerCompany}</h4>
-                      </div>
+                    </div>
+                    <div className="justify">
+                      {exp.partnerLogo && (
+                        <i><img width="20px" height="20px" src={exp.partnerLogo} alt="DTI Logo" /></i>
+                      )}
+                      <h4>{exp.partnerCompany}</h4>
                     </div>
                     <div className="experience-description-topics">
                       <ul>
@@ -69,12 +69,12 @@ const Experience = ({show}) => {
                         <IconContext.Provider value={{ className: "icon-footer", color: "#7D5260" }}>
                           <MdOutlineOilBarrel />
                         </IconContext.Provider>
-                        <div className="justify">
-                          {exp.partnerLogo && (
-                            <i><img width="20px" height="20px" src={exp.partnerLogo} alt="DTI Logo" /></i>
-                          )}
-                          <h4>{exp.partnerCompany}</h4>
-                        </div>
+                      </div>
+                      <div className="justify">
+                        {exp.partnerLogo && (
+                          <i><img width="20px" height="20px" src={exp.partnerLogo} alt="DTI Logo" /></i>
+                        )}
+                        <h4>{exp.partnerCompany}</h4>
                       </div>
                       <div className="experience-description-topics">
                         <ul>

@@ -219,7 +219,9 @@ html {
 }
 
 .experience-description-title {
-  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .experience-description-topics {
@@ -577,7 +579,9 @@ ul {
 }
 
 .course-description-title {
-  flex: 0.5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .course-description-topics {
@@ -586,8 +590,9 @@ ul {
 }
 
 .course-description-topics ul {
+  width: 100%;
   display: inline-block;
-  padding-inline-start: 0px;
+  padding-inline-start: 2rem;
   text-align: left;
 }
 

@@ -78,12 +78,10 @@ const Studies = ({ show }) => {
                       </div>
                       <div className="course-description">
                         <div className="course-description-title">
-                          <div className="justify">
                             {study.partnerLogo && (
-                              <i><img width="20px" height="20px" src={study.partnerLogo} alt={study.School} /></i>
+                              <i><img width="35px" height="35px" src={study.partnerLogo} alt={study.School} /></i>
                             )}
                             <h4>{study.School}</h4>
-                          </div>
                         </div>
                         <div className="course-description-topics">
                           <ul>
