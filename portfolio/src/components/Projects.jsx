@@ -33,7 +33,7 @@ const Projects = ({ show }) => {
                         ))}
                       </ul>
                     </div>
-                    <div className="project-description-media">
+                    <div className="project-description-media techSpan">
                       <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Project Live</a>
                       <a href={project.repoLink} target="_blank" rel="noopener noreferrer">Project Repo</a>
                     </div>
@@ -54,7 +54,7 @@ const Projects = ({ show }) => {
                       <h3>{project.name}</h3>
                       <h4>{project.description}</h4>
                       <h4>Technologies Used: {project.technologies.map((tech, techIndex) => (
-                        <span key={techIndex} className="techSpan">{tech}</span>
+                        <span key={techIndex} className="oilSpan">{tech}</span>
                       ))}</h4>
                     </div>
                     <div className="project-description-topics">
@@ -64,7 +64,7 @@ const Projects = ({ show }) => {
                         ))}
                       </ul>
                     </div>
-                    <div className="project-description-media">
+                    <div className="project-description-media oilSpan">
                       <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Project Live</a>
                       <a href={project.repoLink} target="_blank" rel="noopener noreferrer">Project Repo</a>
                     </div>

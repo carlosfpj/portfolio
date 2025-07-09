@@ -11,7 +11,7 @@ const SOFTWAREPROJECTS = [
     name: "Weather App",
     Image: weatherAppImage,
     description: "Keep updated and ready no mather the weather",
-    technologies: ["Javascript", "OpenWeatherAPI", "HTML", "CSS"],
+    technologies: ["Javascript, ", "OpenWeatherAPI, ", "HTML, ", "CSS, "],
     features: [
       "App must detect your location using geolocation API previous request.",
       "You can see the current day's weather at different times.",
@@ -28,7 +28,7 @@ const SOFTWAREPROJECTS = [
     name: "Calendar",
     Image: calendarImage,
     description: "Make the most of your time and plan your activities in this incredible calendar.",
-    technologies: ["Javascript", "HTML", "CSS", "Grid-Layout"],
+    technologies: ["Javascript, ", "HTML, ", "CSS, ", "Grid-Layout, "],
     features: [
       "CSS grid layout 100%.",
       "Calendar can be seen in day or Week.",
@@ -43,7 +43,7 @@ const SOFTWAREPROJECTS = [
     name: "Spotifu",
     Image: spotifuImage,
     description: "Spotify clone, the leading global platform for on-demand music consumption.",
-    technologies: ["HTML", "CSS", "FloexBox Layout", "Accessibility"],
+    technologies: ["HTML, ", "CSS, ", "FlexBox Layout, ", "Accessibility, "],
     features: [
       "Pixel perfect Spotify clone.",
       "Project based only in flex-box layout.",
@@ -58,7 +58,7 @@ const SOFTWAREPROJECTS = [
     name: "Calculator",
     Image: calculatorImage,
     description: "Fall in love with Math with THE Calculator.",
-    technologies: ["HTML", "CSS", "Javascript", "Grid-Layout"],
+    technologies: ["HTML, ", "CSS, ", "Javascript, ", "Grid-Layout, "],
     features: [
       "Perform any basic mathematical operation",
       "It will never dissapoint you.",
@@ -71,7 +71,7 @@ const SOFTWAREPROJECTS = [
     name: "Digital Clock",
     Image: clockImage,
     description: "Excuse me!!! What time is it?",
-    technologies: ["HTML", "CSS", "Javascript", "Vercel"],
+    technologies: ["HTML, ", "CSS, ", "Javascript, ", "Vercel, "],
     features: [
       "Digital Clock gives you the current time.",
       "Sets background according to day time.",
@@ -85,7 +85,7 @@ const SOFTWAREPROJECTS = [
     name: "Nemium",
     Image: nemiumImage,
     description: "This is where all begins",
-    technologies: ["HTML", "CSS"],
+    technologies: ["HTML, ", "CSS, "],
     features: [
       "Blog site about web development.",
       "Fun to code, lot to learn.",

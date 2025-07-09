@@ -141,11 +141,14 @@ html {
   text-decoration: underline;
   display: inline-block;
   margin-inline-end: 1rem;
-  color: var(--purple20);
 }
 
 .techSpan {
   color: var(--purple10);
+}
+
+.oilSpan {
+  color: var(--brown10);
 }
 
 @media (max-width: 1130px) {

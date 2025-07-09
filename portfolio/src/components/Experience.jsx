@@ -72,7 +72,7 @@ const Experience = ({show}) => {
                       </div>
                       <div className="justify">
                         {exp.partnerLogo && (
-                          <i><img width="20px" height="20px" src={exp.partnerLogo} alt="DTI Logo" /></i>
+                          <i><img width="35px" height="35px" src={exp.partnerLogo} alt={exp.partnerCompany} /></i>
                         )}
                         <h4>{exp.partnerCompany}</h4>
                       </div>
